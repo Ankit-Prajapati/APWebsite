@@ -2,8 +2,8 @@
 # APWebsite.gitignore
 #-----------------------------------------------
 .htaccess
-fonts/
-images/
+fonts/*
+images/*
 .vscode/
 *.zip
 *.gz
