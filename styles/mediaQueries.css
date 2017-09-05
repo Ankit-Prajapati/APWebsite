@@ -1,0 +1,121 @@
+/*---------------------------------------------------*/
+/* EXTRA SMALL (XS) < 768 px */
+/*---------------------------------------------------*/
+
+@media only screen and (max-width: 768px) {
+    h2 {
+        font-size: 50px;
+    }
+
+    h3 {
+        margin-bottom: 20px;
+    }
+
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+        /* background: rgba(0, 0, 64, .9); */
+        background-image: url("../images/backgrounds/blackBG.png");
+        background-position: top left;
+        background-repeat: repeat;
+    }
+
+    header#ap {
+        background-attachment: scroll;
+    }
+
+    #ap .apLogo {
+        width: 225px;
+    }
+
+    #ap .apName {
+        font-size: 36px;
+    }
+    
+    #ap .apDesignation {
+        font-size: 16px;
+        padding: 2px 20px 0 20px;
+    }
+
+    #introduction p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    img.apPic {
+        width: 60%;
+        border: 6px solid #000000;
+    }
+
+    .skillItem {
+        text-align: center;
+        margin: 20px 20px;
+    }
+    
+    .skillItem img {
+        max-height: 48px;
+    }
+
+    .skillItem span {
+        display: inline-block;
+        padding: 0 8px;
+        margin-top: 8px;
+        font-size: 12px;
+        color: #FFFFFF;
+    }
+
+    #contact div.contactText {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+}
+
+
+/*---------------------------------------------------*/
+/* SMALL (SM) 768 - 991 */
+/*---------------------------------------------------*/
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    #ap .apLogo {
+        width: 200px;
+    }
+
+    #ap .apName {
+        font-size: 48px;
+    }
+    
+    #ap .apDesignation {
+        font-size: 22px;
+        padding: 4px 20px 2px 20px;
+    }
+
+    #introduction p {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    
+    img.apPic {
+        width: 60%;
+        border: 10px solid #000000;
+    }
+
+    .skillItem {
+        text-align: center;
+        margin: 30px 40px;
+    }
+    
+    .skillItem img {
+        max-height: 72px;
+    }
+
+    .skillItem span {
+        display: inline-block;
+        padding: 0 10px;
+        margin-top: 8px;
+        font-size: 14px;
+        color: #FFFFFF;
+    }
+
+    #contact div.contactText {
+        font-size: 28px;
+        margin-bottom: 15px;
+    }
+}
