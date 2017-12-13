@@ -14,8 +14,8 @@ $(document).ready(function () {
         var paddingSpace = windowHeight - containerHeight;
 
         $('.apContent').css({
-            'padding-top': Math.round(paddingSpace / 2) + 'px',
-            'padding-bottom': Math.round(paddingSpace / 2) + 'px'
+            'padding-top': Math.floor(paddingSpace / 2) + 'px',
+            'padding-bottom': Math.floor(paddingSpace / 2) + 'px'
         });
 
     }, 10);
@@ -153,7 +153,7 @@ function googleMap() {
     infoWindow.open(map, marker);
 }
 
-googleMap();
+//googleMap();
 
 // //Change AP Logo on Hover
 // $(document).ready(function () {
